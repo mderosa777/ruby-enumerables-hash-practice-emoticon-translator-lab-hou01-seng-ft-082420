@@ -9,7 +9,7 @@ results=>{"put_meaning"=>{},"out_emo"=>{}}
     results["put_meaning"]value[1]]=key
     results["out_emo"][key[0]]=value# code goes here
 end
-
+return results
 def get_japanese_emoticon
   # code goes here
 end
