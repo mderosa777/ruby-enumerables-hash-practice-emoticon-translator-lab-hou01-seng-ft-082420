@@ -13,7 +13,7 @@ end
 return results
 end 
 def get_japanese_emoticon(file,emoticon)
-  file[[]]
+  
   
   # code goes here
 end
