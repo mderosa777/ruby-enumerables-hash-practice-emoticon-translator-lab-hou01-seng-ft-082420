@@ -20,7 +20,7 @@ def get_japanese_emoticon(file_path,western_emoticon)
    return library[key][:japanese]
   end 
 end 
-  "not found"
+  "Sorry, that emoticon was not found"
   # code goes here
 end
 
