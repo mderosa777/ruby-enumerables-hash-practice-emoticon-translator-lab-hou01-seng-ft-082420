@@ -9,8 +9,8 @@ def load_library(file_path)
     newhash[key][:english]=value[1]
     end
    newhash # code goes here
-end
-return results
+
+
 end 
 def get_japanese_emoticon
   
