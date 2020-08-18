@@ -2,10 +2,10 @@
 
  require 'yaml'
 def load_library(file_path)
-list2hash = YAML.load_file(file_path)
+list_hash = YAML.load_file(file_path)
 
 results={"put_meaning"=>{},"out_emo"=>{}}
-  list2hash.each do |key,value|
+  list_hash.each do |key,value|
     results["put_meaning"][value[1]]=key
     results["out_emo"][key[0]]=value # code goes here
 end
