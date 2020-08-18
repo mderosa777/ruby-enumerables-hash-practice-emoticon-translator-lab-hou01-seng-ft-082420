@@ -12,6 +12,7 @@ end
 return results
 end 
 def get_japanese_emoticon(file_path,japan_emo)
+  results=YAML.load_file(file_path)
   
   # code goes here
 end
