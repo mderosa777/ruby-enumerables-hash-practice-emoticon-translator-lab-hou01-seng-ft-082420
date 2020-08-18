@@ -20,7 +20,7 @@ def get_japanese_emoticon(library,emoticon)
    return library[key][:japanese]
   end 
 end 
-  
+  "not found"
   # code goes here
 end
 
