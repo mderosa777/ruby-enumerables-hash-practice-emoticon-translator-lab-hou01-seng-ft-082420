@@ -16,7 +16,7 @@ end
 def get_japanese_emoticon(library,emoticon)
   library=load_library(file_path)
   library.each do|key,value|
-  
+  library
   
   
   # code goes here
