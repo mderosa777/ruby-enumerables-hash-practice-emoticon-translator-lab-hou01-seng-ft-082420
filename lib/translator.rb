@@ -15,7 +15,8 @@ def load_library(file_path)
 end 
 def get_japanese_emoticon(library,emoticon)
   library=load_library(file_path)
-  library.each do|
+  library.each do|key,value|
+  
   
   
   # code goes here
