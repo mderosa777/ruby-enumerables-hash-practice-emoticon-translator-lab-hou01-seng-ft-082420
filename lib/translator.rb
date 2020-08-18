@@ -16,7 +16,7 @@ end
 return results
 end 
 def get_japanese_emoticon(file_path,japan_emo)
-  
+  file[]
   # code goes here
 end
 
