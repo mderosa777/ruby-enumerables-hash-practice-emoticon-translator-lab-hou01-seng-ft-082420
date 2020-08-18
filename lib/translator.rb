@@ -13,7 +13,7 @@ def load_library(file_path)
 
 
 end 
-def get_japanese_emoticon(library,emoticon)
+def get_japanese_emoticon(library,western_emoticon)
   library=load_library(file_path)
   library.each do|key,value|
  if library[key][:english]=western_emotion
@@ -24,7 +24,7 @@ end
   # code goes here
 end
 
-def get_english_meaning(library,emoticon)
+def get_english_meaning(library,japanese_emoticon)
   library=load_library(file_path)
   load_library.each do |key,value|
     if library[key][:japanese]==japanese_emoticon
