@@ -19,6 +19,7 @@ def get_japanese_emoticon(library,emoticon)
  if library[key][:english]=western_emotion
    return library[key][:japanese]
   end 
+end 
   
   # code goes here
 end
