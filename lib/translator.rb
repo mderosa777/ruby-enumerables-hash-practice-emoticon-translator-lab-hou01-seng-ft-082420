@@ -11,7 +11,8 @@ results={"put_meaning"=>{},"out_emo"=>{}}
 end
 return results
 end 
-def get_japanese_emoticon
+def get_japanese_emoticon(file_path,japan_emo)
+  
   # code goes here
 end
 
