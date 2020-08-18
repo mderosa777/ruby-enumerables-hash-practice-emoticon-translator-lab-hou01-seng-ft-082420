@@ -2,6 +2,7 @@
 
  require 'yaml'
 def load_library(file_path)
+  newhash={}
     library = YAML.load_file(file_path)
     library.each do |key,value|
     newhash[key]={}
