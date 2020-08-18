@@ -18,7 +18,7 @@ def get_japanese_emoticon(library,emoticon)
   library.each do|key,value|
  if library[key][:english]=western_emotion
    return library[key][:japanese]
-  
+  end 
   
   # code goes here
 end
