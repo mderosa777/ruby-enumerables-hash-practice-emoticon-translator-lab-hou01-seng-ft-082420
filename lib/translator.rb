@@ -9,7 +9,7 @@ def load_library(file_path)
     newhash[key][:japanese]=value[0]
     newhash[key][:english]=value[1]
     end
-   newhash[key] # code goes here
+   newhash# code goes here
 
 
 end 
