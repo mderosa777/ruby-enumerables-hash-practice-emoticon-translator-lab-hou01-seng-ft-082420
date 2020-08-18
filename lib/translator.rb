@@ -16,7 +16,8 @@ end
 def get_japanese_emoticon(library,emoticon)
   library=load_library(file_path)
   library.each do|key,value|
- if library[key][:english]=western
+ if library[key][:english]=western_emotion
+   return 
   
   
   # code goes here
