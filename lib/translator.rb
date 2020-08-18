@@ -15,7 +15,7 @@ def load_library(file_path)
 end 
 def get_japanese_emoticon(library,emoticon)
   library=load_library(file_path)
-  if newhash[key]
+  library.each do|
   
   
   # code goes here
