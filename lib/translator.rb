@@ -2,8 +2,8 @@
 
  require 'yaml'
 def load_library(file_path)
-    newhash=YAML.load_file(file_path)
-    newhash each do |key,value|
+    library=YAML.load_file(file_path)
+    library each do |key,value|
     newhash[key]={}
     newhash[key][:japanese]=value[0]
     newhash[key][:english]=value[1]
