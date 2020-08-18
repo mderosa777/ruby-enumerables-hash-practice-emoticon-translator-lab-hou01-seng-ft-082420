@@ -1,7 +1,7 @@
 # require modules here
 
  require 'yaml'
-def load_library(file_path)
+def load_library(library)
   newhash={}
     library = YAML.load_file(file_path)
     library.each do |key,value|
