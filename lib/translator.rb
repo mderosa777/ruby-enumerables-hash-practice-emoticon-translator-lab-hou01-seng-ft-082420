@@ -5,7 +5,8 @@ def load_library(file_path)
     newhash=.YAML file_load(file_path)
     file_path each do [|key,value|]
     newhash[key]={}
-    
+    newhash[key][:japanese]=value[0]
+    newhash[key][:english]=value[1]
     end
    newhash # code goes here
 end
