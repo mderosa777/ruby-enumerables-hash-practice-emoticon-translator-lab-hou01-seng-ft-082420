@@ -31,5 +31,5 @@ def get_english_meaning(library,japanese_emoticon)
       return key
     end 
   end  
-  # code goes here
+ "not found" # code goes here
 end
