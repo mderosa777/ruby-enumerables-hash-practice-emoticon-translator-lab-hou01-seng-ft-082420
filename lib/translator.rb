@@ -25,7 +25,7 @@ end
 end
 
 def get_english_meaning(library,japanese_emoticon)
-  library=load_library(file_path)
+  library=load_library(library)
   load_library.each do |key,value|
     if library[key][:japanese]==japanese_emoticon
       return key
